@@ -1,0 +1,15 @@
+{
+    "autoload": {
+        "psr-4": {"App\\": "app/"}
+    },
+    "require": {
+        "jaggedsoft/php-binance-api": "@dev",
+        "monolog/monolog": "^2.8",
+        "illuminate/events": "^8.83",
+        "illuminate/database": "^8.83",
+        "illuminate/validation": "^8.83"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.4"
+    }
+}
